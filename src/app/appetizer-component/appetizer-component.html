@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blue Pearl | Modern Chinese Restaurant</title>
+  <link rel="stylesheet" href="../../../blue-pearl/src/styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <div class="nav-container">
+    <div class="logo">蓝珍珠 <span style="font-size: 20px;">Blue Pearl</span></div>
+
+    <div class="menu-toggle" id="menu-btn">
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="nav-links" id="nav-links">
+      <a href="#">Home</a>
+      <a href="#seafood">Seafood</a>
+      <a href="#dimsum">Dim Sum</a>
+      <a href="#duck">Duck</a>
+      <a href="#reservations">Reservations</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Specialties Section -->
+<section id="contextTable">
+  <h2>Appetizers</h2>
+
+  <div class="specialties">
+    <a href = appetizer.html>
+      <div class="card" id="appetizers">
+        <img src="../../../blue-pearl/src/assets/ChiliEdamame.jpg" alt="Seafood">
+        <h3>Chili Garlic Edamame</h3>
+        <p>Young soybeans sautéed with fresh garlic, chili flakes, and a hint of sesame oil for a spicy, aromatic bite.</p>
+      </div>
+    </a>
+
+    <div class="card" id="entree">
+      <img src="../../../blue-pearl/src/assets/DimsumShutterstock.jpg" alt="Dim Sum">
+      <h3>Entrees</h3>
+      <p>Hand-crafted dim sum that captures the essence of Cantonese tradition, served with refinement and care.</p>
+    </div>
+
+    <div class="card" id="duck">
+      <img src="../../../blue-pearl/src/assets/PekingRoastDuck.jpg" alt="Duck">
+      <h3>Deserts</h3>
+      <p>From crispy Peking duck to aromatic roasted variations, our duck dishes are prepared with mastery and sophistication.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Specialties Section -->
+<section id="specialties">
+  <h2>Our Signature Specialties</h2>
+  <p>Experience the heart of Chinese cuisine with our focus on the ocean’s bounty, delicate dim sum, and the artistry of duck.</p>
+
+  <div class="specialties">
+    <div class="card" id="seafood">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80" alt="Seafood">
+      <h3>Seafood</h3>
+      <p>Fresh from the ocean, our seafood dishes combine traditional flavors with modern presentation for an elegant dining experience.</p>
+    </div>
+
+    <div class="card" id="dimsum">
+      <img src="../../../blue-pearl/src/assets/DimsumShutterstock.jpg" alt="Dim Sum">
+      <h3>Dim Sum</h3>
+      <p>Hand-crafted dim sum that captures the essence of Cantonese tradition, served with refinement and care.</p>
+    </div>
+
+    <div class="card" id="duck">
+      <img src="../../../blue-pearl/src/assets/PekingRoastDuck.jpg" alt="Duck">
+      <h3>Duck</h3>
+      <p>From crispy Peking duck to aromatic roasted variations, our duck dishes are prepared with mastery and sophistication.</p>
+    </div>
+  </div>
+</section>
+
+Reservations
+<section id="reservations">
+  <h2>Reservations</h2>
+  <p>Secure your table at Blue Pearl and indulge in a modern fine dining experience inspired by the sea and tradition.</p>
+  <a href="#contact" style="background:#005f83;color:#fff;padding:12px 30px;border-radius:6px;">Book Now</a>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>10 West Third St, Winston Salem, NC<br>
+    Phone: (123) 456-7890 | Email: reservations@bluepearl.com</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Blue Pearl. All Rights Reserved.</p>
+  <p>Modern Chinese Fine Dining • Seafood • Dim Sum • Duck</p>
+</footer>
+
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const navLinks = document.getElementById('nav-links');
+  menuBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+</body>
+</html>
