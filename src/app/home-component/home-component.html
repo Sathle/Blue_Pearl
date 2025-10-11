@@ -30,37 +30,43 @@
 <!-- Hero -->
 <section class="zero">
   <div class="hero-content">
-    <h1>Blue Pearl</h1>
-    <h3>Asian Fusion Restaurant • Specializing in Dim Sum & Duck</h3>
-    <a href="#reservations">Reserve a Table</a>
+    <h2>Blue Pearl</h2>
+    <h2>Blue Pearl • Asian Fusion Restaurant</h2>
+      <div class="cycling-bg">
+      <div class="slide img1"></div>
+      <div class="slide img2"></div>
+      <div class="slide img3"></div>
+      <div class="slide img4"></div>
+      <ng-content></ng-content>
+    </div>
   </div>
 </section>
 
 <!-- Specialties Section -->
 <section id="contextTable">
   <h2>Menu</h2>
-  <p>Take a look both our Asian fusion creations and classic </p>
+  <p>Take a look both our Asian fusion creations and classical foods </p>
 
   <div class="specialties">
-    <a href=appetizer.html>
-      <div class="card" id="appetizers">
-        <img src="../../../blue-pearl/src/assets/Calamari.jpeg" alt="">
+    <a routerLink="/appetizer">
+    <div class="card" id="appetizers">
+        <img src="assets/Calamari.jpg" alt="Calamari">
         <h3>Appetizers</h3>
         <p>Take a look at our appetizing appetizers!</p>
       </div>
     </a>
 
-    <a href=entree.html>
+    <a routerLink="/entree">
       <div class="card" id="entree">
-        <img src="../../../blue-pearl/src/assets/Padsewee.jpg" alt="Dim Sum">
+        <img src="assets/Dimsum.jpg" alt="Dim Sum">
         <h3>Entrees</h3>
         <p>The main event!</p>
       </div>
     </a>
 
-    <a href="dessert.html">
+    <a routerLink="/dessert">
       <div class="card" id="dessert">
-        <img src="../../../blue-pearl/src/assets/ChocolateDessert.jpg" alt="Duck">
+        <img src="assets/ChocolateDessert.jpg" alt="Dessert">
         <h3>Desserts</h3>
         <p>Some corny dialogue probably</p>
       </div>
@@ -76,23 +82,15 @@
     of duck.</p>
 
   <div class="specialties">
-    <div class="card" id="seafood">
-      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80"
-           alt="Seafood">
-      <h3>Seafood</h3>
-      <p>Fresh from the ocean, our seafood dishes combine traditional flavors with modern presentation for an
-        elegant dining experience.</p>
-    </div>
-
     <div class="card" id="dimsum">
-      <img src="../../../blue-pearl/src/assets/DimsumShutterstock.jpg" alt="Dim Sum">
+      <img src="assets/DimsumShutterstock.jpg" alt="DimSumShutter">
       <h3>Dim Sum</h3>
       <p>Hand-crafted dim sum that captures the essence of Cantonese tradition, served with refinement and
         care.</p>
     </div>
 
     <div class="card" id="duck">
-      <img src="../../../blue-pearl/src/assets/PekingRoastDuck.jpg" alt="Duck">
+      <img src="assets/PekingRoastDuck.jpg" alt="Duck">
       <h3>Duck</h3>
       <p>From crispy Peking duck to aromatic roasted variations, our duck dishes are prepared with mastery and
         sophistication.</p>
