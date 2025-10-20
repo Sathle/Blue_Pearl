@@ -14,7 +14,6 @@ nav {
     z-index: 1000;
 }
 .nav-container {
-
     margin: 0 auto;
     padding: 0 30px;
     display: flex;
@@ -155,7 +154,8 @@ section p {
     overflow: hidden;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
     transition: transform 0.3s ease;
-    min-height: 466px;
+    max-height: 430px;
+    min-height: 430px;
 }
 .card:hover { transform: translateY(-6px); }
 .card img {
